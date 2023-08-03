@@ -1,0 +1,22 @@
+stages:
+  - destroy
+  - publish
+
+destroy:
+  tags:
+    - site
+  stage: destroy
+  script:
+    - docker-compose down
+  only:
+    - main
+
+publish:
+  tags:
+    - site
+  stage: publish
+  script:
+    - docker-compose up -d --force-recreate --no-deps --build
+  only:
+    - main
+
