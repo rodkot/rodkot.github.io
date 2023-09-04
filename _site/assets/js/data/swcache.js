@@ -38,7 +38,7 @@ const resource = [
 const allowedDomains = [
     
 
-    '0.0.0.0:4000',
+    '0.0.0.0:80',
 
     
         'chirpy-img.netlify.app',
