@@ -1,15 +1,5 @@
 stages:
-  - destroy
   - publish
-
-destroy:
-  tags:
-    - site
-  stage: destroy
-  script:
-    - docker-compose down
-  only:
-    - main
 
 publish:
   tags:
