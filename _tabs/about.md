@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 5
+order: 6
 ---
 ![Мое фото](https://sun9-4.userapi.com/impg/2tFzDhV8TsifuFD92OdIf0gm9cloPFJHILYAOw/pkwXy86Sp8w.jpg?size=2560x1707&quality=95&sign=35ba4d699ac7caea5fbd111eafae21f6&type=album)
 ## 👋 Привет!  

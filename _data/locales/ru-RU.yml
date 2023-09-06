@@ -12,10 +12,11 @@ tabs:
   # format: <filename_without_extension>: <value>
   home: Домашняя страница
   cv: Резюме
+  projects: Мои проекты
   categories: Категории
   tags: Теги
   archives: Архив
-  about: О сайте
+  about: Обо мне
 
 # the text displayed in the search bar & search results
 search:
