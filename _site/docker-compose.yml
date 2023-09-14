@@ -1,10 +1,12 @@
-version: '3'
+version: "3.7"
 
 services:
-  jekyll:
-    image: jekyll/jekyll:latest
-    command: jekyll serve --watch --force_polling --verbose --port 80 --host 0.0.0.0
+  jekyll_site:
+    image: jekyll/jekyll:4.0
+    command: ["jekyll", "serve", "--watch", "--draft"]
     ports:
-      - "80:80"
+      - "4000:4000"
     volumes:
-      - .:/srv/jekyll
+     - type: bind
+       source: .
+       target: /srv/jekyll
