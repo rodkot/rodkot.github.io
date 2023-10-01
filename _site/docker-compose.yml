@@ -1,12 +1,12 @@
-version: "3.7"
-
+version: '3'
 services:
-  jekyll_site:
-    image: jekyll/jekyll:4.0
-    command: ["jekyll", "serve", "--watch", "--draft"]
-    ports:
-      - "4000:4000"
-    volumes:
-     - type: bind
-       source: .
-       target: /srv/jekyll
+  jekyll:
+      image: jekyll/jekyll:3.8
+      environment:
+        - JEKYLL_ENV=development
+      command: bundle exec jekyll serve --watch --incremental --config _config-dev.yml --host 0.0.0.0
+      ports:
+          - 4000:4000
+      volumes:
+          - .:/srv/jekyll:cached
+          - ./vendor/bundle:/usr/local/bundle:cached
