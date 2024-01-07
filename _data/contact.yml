@@ -7,6 +7,10 @@
   icon: "fab fa-gitlab"
   url: 'https://gitlab.ccfit.nsu.ru/r.kotov'
 
+- type: linkinIn
+  icon: "fab fa-linkedin"
+  url: 'https://www.linkedin.com/in/rodion-kotov'
+
 - type: vk
   icon: "fab fa-vk"
   url: 'https://vk.com/kotovrodion'

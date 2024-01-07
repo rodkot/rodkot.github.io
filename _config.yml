@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "http://rodkot.site"
+url: "https://rodkot.site"
 
 github:
   username: rodkot # change to your github username
@@ -75,10 +75,10 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://chirpy-img.netlify.app"
+img_cdn: ""
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://sun4-22.userapi.com/s/v1/ig2/9nQt2kFu4t-CYC8I_A_oU3GQIM2Bz4k_tsXcyMs0atw5EN-UyVNTovFgBOeAr5zcCB990aZ3khxD-LYywv7HfZo3.jpg?size=200x200&quality=95&crop=540,128,1088,1088&ava=1"
+avatar: "assets/img/avatar.jpg"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
