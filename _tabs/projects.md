@@ -25,7 +25,11 @@ order: 3
 
 **DetectionNetworkTrafficAnomaliesForICS** - проект по выпускной квалификационной работе «Применение машинного обучения для анализа сетевого трафика между OPC-сервером и клиентами с целью выявления его аномалий».
 
-На текущий момент разработан [тестовый стенд](https://github.com/DetectionNetworkTrafficAnomaliesForICS/TestStand) для эмуляции работы OPC-сервера и PLC по протоколу Modbus TCP.
+На текущий момент разработаны:
+- [[Тестовый стенд]](https://github.com/DetectionNetworkTrafficAnomaliesForICS/TestStand) для эмуляции работы OPC-сервера и PLC по протоколу Modbus TCP.
+- [[Сниффер]](https://github.com/DetectionNetworkTrafficAnomaliesForICS/Sniffer) для перехвата трафика из сетевого интерфейса.
+- [[ML]](https://github.com/DetectionNetworkTrafficAnomaliesForICS/ML) проверка Data Science теорий.
+
 
 ## Verba
 **Состояние**: ``разработка``  
